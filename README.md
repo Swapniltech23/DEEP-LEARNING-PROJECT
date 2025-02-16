@@ -42,14 +42,14 @@ Our goal was to classify movie reviews from the IMDb dataset into two categories
 
 ### **2.2 Framework: Hugging Face Transformers**  
 
-- Provides pre-trained **DistilBERT** models, making NLP tasks easier to implement.
+- Provides pre-trained DistilBERT models, making NLP tasks easier to implement.
   
 - The `Trainer` API helps in training, evaluating, and making predictions.
   
 
 ### **2.3 Dataset: IMDb Movie Reviews**
 
-- A **benchmark dataset** containing **50,000 movie reviews**, labeled as **positive** or **negative**.
+- A benchmark dataset containing 50,000 movie reviews, labeled as **positive** or **negative**.
    
 
 ### **2.4 Computing Environment**  
@@ -64,39 +64,39 @@ Our goal was to classify movie reviews from the IMDb dataset into two categories
 
 ### **3.1 Data Preprocessing**
 
-- Loaded the **IMDb dataset** using Hugging Face’s `datasets` library.
+- Loaded the IMDb dataset using Hugging Face’s `datasets` library.
    
-- Tokenized reviews using **DistilBERTTokenizer**, converting text into numerical inputs.
+- Tokenized reviews using DistilBERTTokenizer, converting text into numerical inputs.
   
 
 ### **3.2 Model Training**  
 
-- Loaded the **pre-trained DistilBERT model** for sequence classification.
+- Loaded the pre-trained DistilBERT model for sequence classification.
   
 - Fine-tuned the model on the IMDb dataset using:
   
-  - **Cross-entropy loss** (for classification tasks)
+  - Cross-entropy loss (for classification tasks)
      
-  - **Adam optimizer** (to adjust learning rate)
+  - Adam optimizer (to adjust learning rate)
      
 - Used the `Trainer` API to handle training efficiently. 
 
 ### **3.3 Evaluation & Prediction**  
 
-- Evaluated the trained model on the **test dataset**.
+- Evaluated the trained model on the test dataset.
    
 - Measured accuracy using `accuracy_score`.
    
-- Plotted a **confusion matrix** to visualize correct and incorrect predictions.
+- Plotted a confusion matrix to visualize correct and incorrect predictions.
   
 
 ### **3.4 Results and Insights** 
 
-- The trained model achieved **high accuracy** in predicting sentiments.
+- The trained model achieved high accuracy in predicting sentiments.
    
-- The **classification report** provided metrics like **precision, recall, and F1-score**.
+- The classification report provided metrics like precision, recall, and F1-score.
    
-- The **confusion matrix** showed some misclassified reviews, indicating areas for improvement.
+- The confusion matrix showed some misclassified reviews, indicating areas for improvement.
   
 
 
@@ -111,19 +111,19 @@ Our goal was to classify movie reviews from the IMDb dataset into two categories
 
 ### **4.2 Social Media Monitoring**  
 
-- Used to track **brand reputation** and **public opinion**.
+- Used to track brand reputation and public opinion.
    
 - **Example:** Companies analyze Twitter trends to adjust marketing strategies.  
 
 ### **4.3 Finance and Stock Market Predictions**
 
-- Financial institutions analyze investor sentiment to predict **market trends**.
+- Financial institutions analyze investor sentiment to predict market trends.
   
 - **Example:** Negative sentiment about a CEO resignation may cause a stock price drop.  
 
 ### **4.4 Healthcare and Mental Health Analysis** 
 
-- Sentiment analysis helps detect **stress, depression, or anxiety** in patient conversations.
+- Sentiment analysis helps detect stress, depression, or anxiety in patient conversations.
    
 - **Example:** AI mental health chatbots provide appropriate responses based on detected emotions.  
 
@@ -137,6 +137,10 @@ Our goal was to classify movie reviews from the IMDb dataset into two categories
 
 ## **5. Conclusion**  
 
-Sentiment analysis using **DistilBERT** is a powerful technique for analyzing public opinions and customer feedback. By fine-tuning **DistilBERT** on IMDb reviews, we built a model capable of predicting whether a review is **positive** or **negative**.  
+Sentiment analysis using DistilBERT is a powerful technique for analyzing public opinions and customer feedback. By fine-tuning DistilBERT on IMDb reviews, we built a model capable of predicting whether a review is **positive** or **negative**.  
 
-This approach can be extended to various industries, such as **customer service automation, real-time social media tracking, and financial sentiment analysis**. Leveraging **pre-trained transformer models** like DistilBERT allows businesses to extract meaningful insights from large volumes of text efficiently. 🚀
+This approach can be extended to various industries, such as customer service automation, real-time social media tracking, and financial sentiment analysis. Leveraging pre-trained transformer models like DistilBERT allows businesses to extract meaningful insights from large volumes of text efficiently. 
+
+#OUTPUT
+
+![Image](https://githachments/assets/b3337112-75b0-42d3-92b2-bacc882530a9)ub.com/user-att
